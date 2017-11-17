@@ -32,6 +32,8 @@ public class Randoman
 	{
 		ArrayList<Integer> currentArray = new ArrayList<Integer>();
 		
+		System.out.println(String.format("Generating RandomicArray(%d) : ArrayList...", arraySize));
+		
 		for (int i = 1; i <= arraySize; i++)
 		{
 			currentArray.add(Generate());
@@ -45,6 +47,8 @@ public class Randoman
 	{
 		ArrayList<Integer> currentArray = new ArrayList<Integer>();
 		
+		System.out.println(String.format("Generating RandomicArray(%d, %d) : ArrayList...", arraySize, valueRange));
+		
 		for (int i = 1; i <= arraySize; i++)
 		{
 			currentArray.add(Generate(valueRange));
@@ -57,6 +61,8 @@ public class Randoman
 	public static ArrayList<Integer> RangedArray(int valueRange)
 	{
 		ArrayList<Integer> currentArray = new ArrayList<Integer>();
+		
+		System.out.println(String.format("Generating RangedArray(%d) : ArrayList...",valueRange));
 		
 		for (int i = 1; i <= valueRange; i++)
 		{
