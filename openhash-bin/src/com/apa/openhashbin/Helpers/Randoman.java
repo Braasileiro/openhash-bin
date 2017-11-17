@@ -1,7 +1,7 @@
 /*
  * Randoman.java
  * Author: Lucas Cota
- * Description: Common random generators.
+ * Description: O cara que randomiza os trem. :)
  * Date: 2017-11-17
  * Modified: 2017-11-17
  */
