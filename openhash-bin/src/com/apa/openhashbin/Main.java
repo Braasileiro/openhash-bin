@@ -32,8 +32,6 @@ public class Main
 		
 		for (int currentValue : rangedTestArray)
 		{
-			boolean searchResult = binarySearchTree.Find(currentValue);
-			
 			System.out.println
 			(
 				String.format
@@ -42,7 +40,7 @@ public class Main
 					currentValue,
 					binarySearchTree.getSearchTime(),
 					binarySearchTree.getSearchComparations(),
-					searchResult
+					binarySearchTree.Find(currentValue)
 				)
 			);
 		}
