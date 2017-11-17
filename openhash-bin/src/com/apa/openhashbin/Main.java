@@ -1,5 +1,5 @@
 /*
- * Randoman.java
+ * Main.java
  * Author: Lucas Cota
  * Description: openhash-bin Main.
  * Date: 2017-11-17
@@ -30,21 +30,13 @@ public class Main
 			binarySearchTree.Insert(currentValue);
 		}
 		
+		binarySearchTree.ShowResultHeader(VALUE_RANGE, ARRAY_SIZE_TEST);
+
 		for (int currentValue : rangedTestArray)
 		{
 			boolean searchResult = binarySearchTree.Find(currentValue);
 			
-			System.out.println
-			(
-				String.format
-				(
-					"Value: %4d | Time: %f ms | Comparations: %4d | Find: %5s",
-					currentValue,
-					binarySearchTree.getSearchTime(),
-					binarySearchTree.getSearchComparations(),
-					searchResult
-				)
-			);
+			binarySearchTree.ShowResult(currentValue, searchResult);
 		}
 	}
 }

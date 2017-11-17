@@ -32,7 +32,7 @@ public class BinarySearchTree
 	
 	// Counters
 	private float searchTime;
-	private int searchComparations;
+	private int searchComparisons;
 
 
 
@@ -228,7 +228,7 @@ public class BinarySearchTree
 		{
 			if (currentNode.nodeValue == nodeValue)
 			{
-				searchComparations++;
+				searchComparisons++;
 
 				// Time measure final time
 				searchTime = TimeMeasure.MeasureNanoToMilis(startTime);
@@ -237,13 +237,13 @@ public class BinarySearchTree
 			}
 			else if (currentNode.nodeValue > nodeValue)
 			{
-				searchComparations++;
+				searchComparisons++;
 
 				currentNode = currentNode.nodeLeft;
 			}
 			else
 			{
-				searchComparations++;
+				searchComparisons++;
 
 				currentNode = currentNode.nodeRight;
 			}
@@ -278,6 +278,37 @@ public class BinarySearchTree
 		
 		return replaceNode;
 	}
+	
+	public void ShowResultHeader(int VALUE_RANGE, int ARRAY_SIZE_TEST)
+	{
+		System.out.println
+		(
+			String.format
+			(
+				"%sBinarySearchTree(ARRAY_SIZE_TEST: %d, VALUE_RANGE: %d) : Boolean%s",
+				System.lineSeparator(),
+				VALUE_RANGE,
+				ARRAY_SIZE_TEST,
+				System.lineSeparator()
+			)
+		);
+	}
+	
+	public void ShowResult(int currentValue, boolean searchResult)
+	{
+		System.out.println
+		(
+			String.format
+			(
+				"Value: %4d | Time: %f ms | Comparisons: %4d | Found: %5s",
+				currentValue,
+				getSearchTime(),
+				getSearchComparisons(),
+				searchResult
+			)
+		);
+	}
+
 
 
 
@@ -291,8 +322,8 @@ public class BinarySearchTree
 		return searchTime;
 	}
 
-	public int getSearchComparations()
+	public int getSearchComparisons()
 	{
-		return searchComparations;
+		return searchComparisons;
 	}
 }
