@@ -7,17 +7,49 @@
  * Modified: 2017-11-17
  */
 
-package com.apa.openhashbin;
+package com.apa.openhashbin.Stream;
+
+import com.apa.openhashbin.Helpers.TimeMeasure;
+
+class Node
+{
+	int nodeValue;
+	Node nodeLeft;
+	Node nodeRight;
+	
+	public Node(int nodeValue)
+	{
+		this.nodeLeft = null;
+		this.nodeRight = null;
+		this.nodeValue = nodeValue;
+	}
+}
 
 public class BinarySearchTree
 {
+	// Root
 	private Node rootNode;
 	
+	// Counters
+	private float searchTime;
+	private int searchComparations;
+
+
+
+
+	// Default Constructor
 	public BinarySearchTree()
 	{
 		this.rootNode = null;
 	}
-	
+
+
+
+
+	/*
+	 * Methods
+	 */
+
 	public void Insert(int nodeValue)
 	{
 		Node insertNode = new Node(nodeValue);
@@ -186,6 +218,9 @@ public class BinarySearchTree
 	
 	public Boolean Find(int nodeValue)
 	{
+		// Time measure start time
+		long startTime = TimeMeasure.NanoTime();
+
 		Node currentNode = rootNode;
 		
 		// Verifica pela raiz se o nó está a esquerda ou direita.
@@ -193,18 +228,30 @@ public class BinarySearchTree
 		{
 			if (currentNode.nodeValue == nodeValue)
 			{
+				searchComparations++;
+
+				// Time measure final time
+				searchTime = TimeMeasure.MeasureNanoToMilis(startTime);
+
 				return true;
 			}
 			else if (currentNode.nodeValue > nodeValue)
 			{
+				searchComparations++;
+
 				currentNode = currentNode.nodeLeft;
 			}
 			else
 			{
+				searchComparations++;
+
 				currentNode = currentNode.nodeRight;
 			}
 		}
 		
+		// Time measure final time
+		searchTime = TimeMeasure.MeasureNanoToMilis(startTime);
+
 		// Se não encontrá-lo, retorna false.
 		return false;
 	}
@@ -231,19 +278,21 @@ public class BinarySearchTree
 		
 		return replaceNode;
 	}
-}
 
-// Estrutura do Node
-class Node
-{
-	int nodeValue;
-	Node nodeLeft;
-	Node nodeRight;
-	
-	public Node(int nodeValue)
+
+
+
+	/*
+	 * Getters/Setters
+	 */
+
+	public float getSearchTime()
 	{
-		this.nodeLeft = null;
-		this.nodeRight = null;
-		this.nodeValue = nodeValue;
+		return searchTime;
+	}
+
+	public int getSearchComparations()
+	{
+		return searchComparations;
 	}
 }
