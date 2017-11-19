@@ -54,7 +54,7 @@ public class Main
 			binarySearchTree.Display(currentValue, searchResult);
 		}
 		
-		/* Possible BinarySearchTree commands
+		/* Possible OpenHashMap commands
 		 * openHashMap.Insert(int key, int value): Inserts a new value on hash table.
 		 * openHashMap.Delete(int key): Delete an exist value on hash table.
 		 * openHashMap.Find(int key): Find an exist value on hash table.
