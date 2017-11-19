@@ -1,0 +1,208 @@
+Generating RangedArray(valueRange: 10000) : ArrayList...
+Generating RandomicArray(arraySize: 100, valueRange: 10000) : ArrayList...
+
+BinarySearchTree(ARRAY_SIZE_TEST: 10000, VALUE_RANGE: 100)
+
+FindValue: 5364 | FindTime: 0,005759 ms | FindComparisons:   17 | Found: false
+FindValue:   11 | FindTime: 0,001570 ms | FindComparisons:    6 | Found:  true
+FindValue: 8362 | FindTime: 0,002617 ms | FindComparisons:   17 | Found: false
+FindValue: 6820 | FindTime: 0,001047 ms | FindComparisons:    3 | Found:  true
+FindValue: 6406 | FindTime: 0,002617 ms | FindComparisons:   14 | Found:  true
+FindValue: 8043 | FindTime: 0,002094 ms | FindComparisons:   15 | Found: false
+FindValue: 5856 | FindTime: 0,002880 ms | FindComparisons:   21 | Found:  true
+FindValue: 4653 | FindTime: 0,002618 ms | FindComparisons:   18 | Found:  true
+FindValue: 8544 | FindTime: 0,002094 ms | FindComparisons:   14 | Found:  true
+FindValue: 6019 | FindTime: 0,001570 ms | FindComparisons:   15 | Found:  true
+FindValue: 4800 | FindTime: 0,002094 ms | FindComparisons:   14 | Found: false
+FindValue: 9386 | FindTime: 0,002880 ms | FindComparisons:   19 | Found:  true
+FindValue: 7189 | FindTime: 0,002879 ms | FindComparisons:   18 | Found: false
+FindValue: 5243 | FindTime: 0,001571 ms | FindComparisons:    9 | Found:  true
+FindValue: 5197 | FindTime: 0,574037 ms | FindComparisons:   21 | Found:  true
+FindValue: 5281 | FindTime: 0,002094 ms | FindComparisons:   12 | Found:  true
+FindValue: 5865 | FindTime: 0,003141 ms | FindComparisons:   22 | Found:  true
+FindValue: 6739 | FindTime: 0,002879 ms | FindComparisons:   18 | Found: false
+FindValue: 9797 | FindTime: 0,001047 ms | FindComparisons:    7 | Found:  true
+FindValue: 5103 | FindTime: 0,003665 ms | FindComparisons:   22 | Found:  true
+FindValue: 8466 | FindTime: 0,002618 ms | FindComparisons:   17 | Found:  true
+FindValue: 3408 | FindTime: 0,002356 ms | FindComparisons:   15 | Found:  true
+FindValue: 5219 | FindTime: 0,002617 ms | FindComparisons:   16 | Found: false
+FindValue: 6878 | FindTime: 0,001571 ms | FindComparisons:   12 | Found:  true
+FindValue: 8111 | FindTime: 0,002356 ms | FindComparisons:   17 | Found: false
+FindValue: 1905 | FindTime: 0,001570 ms | FindComparisons:    9 | Found:  true
+FindValue: 9985 | FindTime: 0,002618 ms | FindComparisons:   16 | Found: false
+FindValue: 6166 | FindTime: 0,002618 ms | FindComparisons:   17 | Found: false
+FindValue:  225 | FindTime: 0,001832 ms | FindComparisons:   13 | Found:  true
+FindValue: 5504 | FindTime: 0,002356 ms | FindComparisons:   16 | Found:  true
+FindValue: 2424 | FindTime: 0,003664 ms | FindComparisons:   24 | Found: false
+FindValue: 3792 | FindTime: 0,002094 ms | FindComparisons:   12 | Found:  true
+FindValue: 7737 | FindTime: 0,002356 ms | FindComparisons:   18 | Found: false
+FindValue: 4691 | FindTime: 0,002617 ms | FindComparisons:   16 | Found: false
+FindValue: 8470 | FindTime: 0,002879 ms | FindComparisons:   20 | Found: false
+FindValue: 5765 | FindTime: 0,001832 ms | FindComparisons:   14 | Found:  true
+FindValue: 2496 | FindTime: 0,002356 ms | FindComparisons:   18 | Found: false
+FindValue: 3346 | FindTime: 0,002355 ms | FindComparisons:   18 | Found: false
+FindValue: 6586 | FindTime: 0,002356 ms | FindComparisons:   16 | Found:  true
+FindValue: 1989 | FindTime: 0,003402 ms | FindComparisons:   23 | Found: false
+FindValue: 9261 | FindTime: 0,001832 ms | FindComparisons:   12 | Found:  true
+FindValue:  852 | FindTime: 0,002094 ms | FindComparisons:   14 | Found:  true
+FindValue: 5694 | FindTime: 0,002880 ms | FindComparisons:   20 | Found: false
+FindValue: 3715 | FindTime: 0,002618 ms | FindComparisons:   15 | Found: false
+FindValue: 2103 | FindTime: 0,003141 ms | FindComparisons:   23 | Found: false
+FindValue: 8274 | FindTime: 0,003141 ms | FindComparisons:   22 | Found:  true
+FindValue:  946 | FindTime: 0,001571 ms | FindComparisons:   12 | Found:  true
+FindValue: 7821 | FindTime: 0,002356 ms | FindComparisons:   15 | Found:  true
+FindValue: 4375 | FindTime: 0,002355 ms | FindComparisons:   17 | Found: false
+FindValue: 5613 | FindTime: 0,002618 ms | FindComparisons:   19 | Found:  true
+FindValue: 6161 | FindTime: 0,002618 ms | FindComparisons:   20 | Found: false
+FindValue: 8074 | FindTime: 0,002356 ms | FindComparisons:   17 | Found: false
+FindValue: 6824 | FindTime: 0,001571 ms | FindComparisons:   10 | Found: false
+FindValue: 5691 | FindTime: 0,003403 ms | FindComparisons:   23 | Found: false
+FindValue: 8770 | FindTime: 0,002879 ms | FindComparisons:   21 | Found: false
+FindValue: 8284 | FindTime: 0,001832 ms | FindComparisons:   16 | Found: false
+FindValue: 1950 | FindTime: 0,001832 ms | FindComparisons:   16 | Found:  true
+FindValue: 8940 | FindTime: 0,002618 ms | FindComparisons:   16 | Found:  true
+FindValue: 8093 | FindTime: 0,002356 ms | FindComparisons:   18 | Found:  true
+FindValue: 5302 | FindTime: 0,001047 ms | FindComparisons:    7 | Found:  true
+FindValue: 3040 | FindTime: 0,002618 ms | FindComparisons:   14 | Found: false
+FindValue: 6347 | FindTime: 0,002879 ms | FindComparisons:   16 | Found: false
+FindValue: 4952 | FindTime: 0,003141 ms | FindComparisons:   22 | Found: false
+FindValue: 1639 | FindTime: 0,004712 ms | FindComparisons:   10 | Found:  true
+FindValue: 7380 | FindTime: 0,003141 ms | FindComparisons:   20 | Found:  true
+FindValue: 3440 | FindTime: 0,002617 ms | FindComparisons:   18 | Found: false
+FindValue:  766 | FindTime: 0,001570 ms | FindComparisons:   12 | Found:  true
+FindValue: 6867 | FindTime: 0,002094 ms | FindComparisons:   15 | Found:  true
+FindValue: 2534 | FindTime: 0,001832 ms | FindComparisons:   13 | Found: false
+FindValue: 7602 | FindTime: 0,002618 ms | FindComparisons:   18 | Found:  true
+FindValue: 6283 | FindTime: 0,002618 ms | FindComparisons:   19 | Found: false
+FindValue: 9634 | FindTime: 0,002879 ms | FindComparisons:   20 | Found:  true
+FindValue: 5012 | FindTime: 0,002355 ms | FindComparisons:   18 | Found: false
+FindValue: 2473 | FindTime: 0,001570 ms | FindComparisons:   12 | Found:  true
+FindValue: 7334 | FindTime: 0,010470 ms | FindComparisons:   11 | Found: false
+FindValue: 7698 | FindTime: 0,001832 ms | FindComparisons:   15 | Found:  true
+FindValue:  393 | FindTime: 0,002356 ms | FindComparisons:   15 | Found:  true
+FindValue: 8178 | FindTime: 0,002879 ms | FindComparisons:   20 | Found:  true
+FindValue: 5962 | FindTime: 0,002880 ms | FindComparisons:   21 | Found: false
+FindValue: 4680 | FindTime: 0,002356 ms | FindComparisons:   15 | Found:  true
+FindValue: 2004 | FindTime: 0,002618 ms | FindComparisons:   18 | Found:  true
+FindValue: 5116 | FindTime: 0,002094 ms | FindComparisons:   15 | Found:  true
+FindValue: 1427 | FindTime: 0,002618 ms | FindComparisons:   20 | Found: false
+FindValue: 7700 | FindTime: 0,002356 ms | FindComparisons:   14 | Found:  true
+FindValue: 7972 | FindTime: 0,003141 ms | FindComparisons:   14 | Found: false
+FindValue: 1536 | FindTime: 0,002356 ms | FindComparisons:   17 | Found:  true
+FindValue:  386 | FindTime: 0,002356 ms | FindComparisons:   13 | Found: false
+FindValue: 4626 | FindTime: 0,002617 ms | FindComparisons:   15 | Found:  true
+FindValue: 1746 | FindTime: 0,002879 ms | FindComparisons:   19 | Found:  true
+FindValue: 3357 | FindTime: 0,002356 ms | FindComparisons:   17 | Found:  true
+FindValue: 3373 | FindTime: 0,001833 ms | FindComparisons:   15 | Found:  true
+FindValue: 4877 | FindTime: 0,002094 ms | FindComparisons:   16 | Found: false
+FindValue: 1675 | FindTime: 0,003403 ms | FindComparisons:   19 | Found:  true
+FindValue: 2753 | FindTime: 0,001570 ms | FindComparisons:   11 | Found:  true
+FindValue: 3350 | FindTime: 0,002879 ms | FindComparisons:   19 | Found:  true
+FindValue: 4782 | FindTime: 0,002094 ms | FindComparisons:   14 | Found: false
+FindValue: 1753 | FindTime: 0,001832 ms | FindComparisons:   13 | Found:  true
+FindValue: 6819 | FindTime: 0,002094 ms | FindComparisons:   12 | Found: false
+FindValue: 9974 | FindTime: 0,002618 ms | FindComparisons:   15 | Found: false
+FindValue: 7234 | FindTime: 0,004450 ms | FindComparisons:   22 | Found: false
+
+OpenHashMap(ARRAY_SIZE_TEST: 10000, VALUE_RANGE: 100)
+
+FindKey: 5364 | FindTime: 0,003141 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey:   11 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 8362 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: 4446
+FindKey: 6820 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 6406 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 8043 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 5856 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 6448
+FindKey: 4653 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: 7483
+FindKey: 8544 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 4405
+FindKey: 6019 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 4800 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: 9231
+FindKey: 9386 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 7189 | FindTime: 0,000261 ms | FindComparisons:    1 | ValueOfKey: 3648
+FindKey: 5243 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 5197 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: 7798
+FindKey: 5281 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 5865 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 5598
+FindKey: 6739 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 7540
+FindKey: 9797 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 2907
+FindKey: 5103 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: 2453
+FindKey: 8466 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 588
+FindKey: 3408 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 5219 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 6878 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: 8332
+FindKey: 8111 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: 4319
+FindKey: 1905 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 6268
+FindKey: 9985 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: 9498
+FindKey: 6166 | FindTime: 0,001047 ms | FindComparisons:    1 | ValueOfKey: 3165
+FindKey:  225 | FindTime: 0,000261 ms | FindComparisons:    1 | ValueOfKey: 6518
+FindKey: 5504 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 2424 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 3792 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: 5557
+FindKey: 7737 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 4259
+FindKey: 4691 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 4718
+FindKey: 8470 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 18
+FindKey: 5765 | FindTime: 0,000261 ms | FindComparisons:    1 | ValueOfKey: 2447
+FindKey: 2496 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 3346 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 6586 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 1989 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 9261 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: 3055
+FindKey:  852 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 5694 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 6385
+FindKey: 3715 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 1224
+FindKey: 2103 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 8274 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: 6378
+FindKey:  946 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 8566
+FindKey: 7821 | FindTime: 0,000261 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 4375 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 5613 | FindTime: 0,000261 ms | FindComparisons:    1 | ValueOfKey: 305
+FindKey: 6161 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 8074 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: 6268
+FindKey: 6824 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 7610
+FindKey: 5691 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 3987
+FindKey: 8770 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 8284 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: 9653
+FindKey: 1950 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 8940 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 8093 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 5302 | FindTime: 0,000261 ms | FindComparisons:    1 | ValueOfKey: 1042
+FindKey: 3040 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: 8989
+FindKey: 6347 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 4952 | FindTime: 0,000261 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 1639 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 7380 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: 9691
+FindKey: 3440 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey:  766 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 6867 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 9388
+FindKey: 2534 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 7602 | FindTime: 0,000261 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 6283 | FindTime: 0,000261 ms | FindComparisons:    1 | ValueOfKey: 8879
+FindKey: 9634 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: 2057
+FindKey: 5012 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 2473 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 7334 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: 1607
+FindKey: 7698 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: 7017
+FindKey:  393 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 8178 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 5962 | FindTime: 0,000261 ms | FindComparisons:    1 | ValueOfKey: 7778
+FindKey: 4680 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 2004 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 5116 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: 5813
+FindKey: 1427 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 5915
+FindKey: 7700 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 8242
+FindKey: 7972 | FindTime: 0,000261 ms | FindComparisons:    1 | ValueOfKey: 6206
+FindKey: 1536 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 8347
+FindKey:  386 | FindTime: 0,000261 ms | FindComparisons:    1 | ValueOfKey: 4207
+FindKey: 4626 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 1746 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 3357 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 3373 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 4877 | FindTime: 0,000785 ms | FindComparisons:    1 | ValueOfKey: 439
+FindKey: 1675 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: Not Found
+FindKey: 2753 | FindTime: 0,000261 ms | FindComparisons:    1 | ValueOfKey: 381
+FindKey: 3350 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 676
+FindKey: 4782 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: 2126
+FindKey: 1753 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 2764
+FindKey: 6819 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: 9407
+FindKey: 9974 | FindTime: 0,000262 ms | FindComparisons:    1 | ValueOfKey: 764
+FindKey: 7234 | FindTime: 0,000524 ms | FindComparisons:    1 | ValueOfKey: 9346
