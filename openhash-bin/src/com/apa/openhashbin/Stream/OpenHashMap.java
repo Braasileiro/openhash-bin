@@ -110,8 +110,8 @@ public class OpenHashMap
 			(
 				"%sOpenHashMap(ARRAY_SIZE_TEST: %d, VALUE_RANGE: %d)%s",
 				System.lineSeparator(),
-				VALUE_RANGE,
 				ARRAY_SIZE_TEST,
+				VALUE_RANGE,
 				System.lineSeparator()
 			)
 		);

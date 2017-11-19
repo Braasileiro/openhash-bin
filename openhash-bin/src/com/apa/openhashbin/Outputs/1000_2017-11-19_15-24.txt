@@ -1,7 +1,7 @@
 Generating RangedArray(valueRange: 1000) : ArrayList...
 Generating RandomicArray(arraySize: 100, valueRange: 1000) : ArrayList...
 
-BinarySearchTree(ARRAY_SIZE_TEST: 1000, VALUE_RANGE: 100)
+BinarySearchTree(ARRAY_SIZE_TEST: 100, VALUE_RANGE: 1000)
 
 FindValue:  603 | FindTime: 0,003927 ms | FindComparisons:   15 | Found: false
 FindValue:  654 | FindTime: 0,001571 ms | FindComparisons:   15 | Found: false
