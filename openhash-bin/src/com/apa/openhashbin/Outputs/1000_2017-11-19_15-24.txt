@@ -104,7 +104,7 @@ FindValue:  157 | FindTime: 0,001832 ms | FindComparisons:   11 | Found: false
 FindValue:   63 | FindTime: 0,001309 ms | FindComparisons:    9 | Found:  true
 FindValue:  759 | FindTime: 0,001570 ms | FindComparisons:   14 | Found:  true
 
-OpenHashMap(ARRAY_SIZE_TEST: 1000, VALUE_RANGE: 100)
+OpenHashMap(ARRAY_SIZE_TEST: 100, VALUE_RANGE: 1000)
 
 FindKey:  603 | FindTime: 0,003403 ms | FindComparisons:    1 | ValueOfKey: Not Found
 FindKey:  654 | FindTime: 0,000523 ms | FindComparisons:    1 | ValueOfKey: Not Found
