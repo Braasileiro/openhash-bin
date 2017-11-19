@@ -4,7 +4,7 @@
  * Description: Binary Search Tree common operations.
  * Reference: <http://algorithms.tutorialhorizon.com/binary-search-tree-complete-implementation/>
  * Date: 2017-11-17
- * Modified: 2017-11-17
+ * Modified: 2017-11-19
  */
 
 package com.apa.openhashbin.Stream;
@@ -279,13 +279,13 @@ public class BinarySearchTree
 		return replaceNode;
 	}
 	
-	public void ShowResultHeader(int VALUE_RANGE, int ARRAY_SIZE_TEST)
+	public void DisplayHeader(int VALUE_RANGE, int ARRAY_SIZE_TEST)
 	{
 		System.out.println
 		(
 			String.format
 			(
-				"%sBinarySearchTree(ARRAY_SIZE_TEST: %d, VALUE_RANGE: %d) : Boolean%s",
+				"%sBinarySearchTree(ARRAY_SIZE_TEST: %d, VALUE_RANGE: %d)%s",
 				System.lineSeparator(),
 				VALUE_RANGE,
 				ARRAY_SIZE_TEST,
@@ -294,13 +294,13 @@ public class BinarySearchTree
 		);
 	}
 	
-	public void ShowResult(int currentValue, boolean searchResult)
+	public void Display(int currentValue, boolean searchResult)
 	{
 		System.out.println
 		(
 			String.format
 			(
-				"Value: %4d | Time: %f ms | Comparisons: %4d | Found: %5s",
+				"FindValue: %4d | FindTime: %f ms | FindComparisons: %4d | Found: %5s",
 				currentValue,
 				getSearchTime(),
 				getSearchComparisons(),
@@ -319,11 +319,19 @@ public class BinarySearchTree
 
 	public float getSearchTime()
 	{
-		return searchTime;
+		float currentSearchTime = searchTime;
+		
+		searchTime = 0;
+		
+		return currentSearchTime;
 	}
 
 	public int getSearchComparisons()
 	{
-		return searchComparisons;
+		int currentSearchComparisons = searchComparisons;
+		
+		searchComparisons = 0;
+
+		return currentSearchComparisons;
 	}
 }
